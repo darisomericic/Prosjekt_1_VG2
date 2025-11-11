@@ -19,4 +19,8 @@ Appen henter data fra en ekstern vær-API og presenterer temperatur, vind, fukti
 
 
 # 🧩 Teknologier brukt 
-Frontend: 
+  Frontend: HTML, JS
+  Backend: Python, Flask, MariaDB
+  Styling: CSS
+  API: N/A
+  
