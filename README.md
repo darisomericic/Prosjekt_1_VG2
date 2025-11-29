@@ -5,13 +5,11 @@ Appen henter data fra en ekstern vær-API og presenterer temperatur, vind, fukti
 
 # 🚀 Funksjoner
 
- - Søk etter værmelding for hvilken som helst by
+ - Søk etter værmelding for hvilken som helst by i hele verden
 
- - Viser temperatur, værbeskrivelse, vindstyrke og luftfuktighet
+ - Viser temperatur, værbeskrivelse, vindstyrke, luftfuktighet og dato og klokkeslett i real-time
 
- - Dynamiske værikoner basert på forhold (sol, regn, skyer osv.)
-
- - Automatisk oppdatering basert på brukerens posisjon 
+ - Dynamiske værikoner basert på forhold (sol, regn, skyer, snø, osv.) 
  
  - Responsivt design for mobil, nettbrett og desktop
 
@@ -19,8 +17,13 @@ Appen henter data fra en ekstern vær-API og presenterer temperatur, vind, fukti
 
 
 # 🧩 Teknologier brukt 
-  - Frontend: HTML, JS
-  - Backend: Python, Flask, MariaDB
-  - Styling: CSS
-  - API: N/A
+-  Frontend: `React` 
+
+  - Backend: `Python`
+
+  - Styling: `CSS`
+
+  - API: `WeatherAPI`
+
+- Database: `MariaDB`
   
