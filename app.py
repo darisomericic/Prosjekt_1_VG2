@@ -15,10 +15,10 @@ def index():
     connect = None
     try:
         connect = mariadb.connect(
-            host = 'localhost',
-            user = 'daris',
-            password = 'daris123',
-            database = 'WeatherApp'
+           host=os.getenv('DB_HOST'),
+           user=os.getenv('DB_USER'),
+           password=os.getenv('DB_PASS'),
+           database=os.getenv('DB_NAME')
         )
         cursor = connect.cursor() 
         cursor.execute()
