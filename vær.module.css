@@ -55,7 +55,7 @@ button:active {
   background-color: black;
   opacity: 50%;
   border-radius: 5px;
-  height: clamp(350px, 50%, 500px);
+  height: clamp(340px, 50%, 500px);
   
 }
 
@@ -63,8 +63,8 @@ button:active {
   color: white;
   text-align: center;
   background-color: #352727;
-  height: 35px;
-  font-size: 22px;
+  height: 32px;
+  font-size: 20px;
   border-radius: 5px;
 }
 
@@ -72,20 +72,34 @@ button:active {
   color: white;
   text-align: right;
   margin-right: 25px;
-  font-size: 15px;         
+  font-size: 14px;         
 }
 
 
 .bilde img {
   width: 50%;
-  transform: translateY(-203px);
+  transform: translateY(-190px);
   background-color: #3f3c3c;
   margin: 10px;
   border-radius: 5px;
-  height: 180px;
+  height: 170px;
   margin-top: 1rem;
   
 }
+
+.searchHistory {
+  text-align: center;
+  transform: translateY(-150px);
+  color: #ffffff;
+  opacity: 100%;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 20px;
+}
+
+
+
+
+
 
 
 @media (max-width: 409px) {
@@ -98,15 +112,50 @@ button:active {
     padding: 3px;
 
   }
+
+   .weatherbox h3 {
+    font-size: 17px;
+    height: 25px;
+   }
+
+   .weatherbox p {
+    font-size: 13px;
+   }
+
+   .bilde img {
+    margin-top: 20px;
+   }
+
+   .searchHistory {
+    font-size: 15px;
+    transform: translateY(-120px);
+
+   }
 }
 
 
+
+
+
+@media (max-width: 400px) {
+  .bilde img {
+   height: 150px;
+   width: 150px;
+   transform: translateY(-183px);
+   margin-left: 20px;
    
+  }
+
+  
+}
+
 
 @media (max-width: 376px) {
-  .weatherbox {
+
+   .weatherbox {
     margin: 10px;
   }
+ 
 
   .innhold input {
     width: 38.5%;
@@ -115,18 +164,20 @@ button:active {
 
    .weatherbox h3 {
     font-size: 17px;
-    height: 30px;
+    height: 28px;
    }
 
    .weatherbox p {
     font-size: 13px;
    }
    .bilde img {
-    transform: translateY(-175px);
-    height: 155px;
-    margin-top: 9px;
+    transform: translateY(-170px);
+    height: 140px;
+    width: 150px;
+    
    }
 }
+
 
 @media (max-width: 370px) {
   .bilde img { 
@@ -141,10 +192,25 @@ button:active {
 
 @media (max-width: 321px) {
   .bilde img { 
-    transform: translateY(-155px);
-    margin-left: 5px;
-    height: 135px;
+    transform: translateY(-150px);
+    margin-left: 10px;
+    height: 125px;
+    width: 140px;
+  }
+
+  .weatherbox p {
+    font-size: 11px;
+  }
+
+  .weatherbox h3 {
+    font-size: 16px;
+    height: 25px;
+  }
+
+  .weatherbox {
+    height: clamp(280px, 50%, 500px);
   }
 
 }
+
 
